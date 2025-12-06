@@ -19,8 +19,6 @@
   id: HandheldAlertMonitor
   description: Отображает атмосферные оповещения сигнализаций станции.
   components:
-  - type: RequiresSkill
-    RequiresAtmosphere: true
   - type: ItemTogglePointLight
   - type: PointLight
     enabled: false
